@@ -5,7 +5,3 @@ seaborn
 streamlit-extras
 matplotlib
 numpy
-json
-os
-math
-random
