@@ -46,7 +46,7 @@ def inject_css():
 
 
 def inject_header():
-    image_path = "C:/Users/laithe/Documents/personal document file/laithe/pays musulman/structure investissement musulmane/logo_blackgoldinvestment.jpg"
+    image_path = "logo_blackgoldinvestment.jpg"
     with open(image_path, "rb") as image_file:
         image_base64 = base64.b64encode(image_file.read()).decode()
     # Chemin vers l'image locale
