@@ -255,10 +255,6 @@ for i_indice , total_jour_type_panne in enumerate(n_eme_jours_pannes_vecteur):
 
 # Creation des vecteurs dépenses, chiffre d'affaire et benefice pour chaque jours de l'année    
 
-# Bouton pour revenir à la page d'accueil
-if st.button("Retour à la page d'accueil"):
-    switch_page("app")
-
 # Calculs basés sur les formules fournies
 capital_depart = nombre_investisseurs * investissement_moyen_par_personne
 fond_depart_necessaire = (nombre_pelle * (prix_unitaire_pelle + prix_douane_pelle + prix_envoi_pelle) +
